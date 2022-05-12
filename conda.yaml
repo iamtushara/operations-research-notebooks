@@ -1,11 +1,49 @@
 name: operations-research-notebooks
+
 channels:
   - conda-forge
   - defaults
+
 dependencies:
-  # python
-  - python=3.7.6
-  - ipykernel=6.4.1
-  # r - uncomment to include R
-  # - r-base=3.6.1
-  # - r-irkernel=0.8.15
+  - python
+
+  # Jupyter
+  - ipykernel
+  - ipywidgets
+
+  # Data Engineering
+  - pandas
+  - s3fs
+  - pyarrow
+  - fastparquet
+  - python-snappy
+  - python-dotenv
+  - pydantic
+
+  # Data Analysis
+  - scikit-learn
+  - shapely
+  - geopandas
+  - scipy
+
+  # Operations Research
+  - pyomo
+  - ipopt
+
+  # Visualizations
+  - matplotlib
+  - seaborn
+  - missingno
+
+  # Misc
+  - bs4
+  - lxml
+  - ca-certificates
+  - certifi
+  - openssl
+  - fsspec
+
+  # Testing and Code Quality
+  - autopep8
+  - pylint
+  - pytest
