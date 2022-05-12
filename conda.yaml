@@ -29,6 +29,7 @@ dependencies:
   # Operations Research
   - pyomo
   - ipopt
+  - glpk
 
   # Visualizations
   - matplotlib
