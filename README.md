@@ -1,4 +1,4 @@
-# operations-research-notebooks
+# Operations Research Notebooks
 Notebooks for Operation Research Problems
 
 
