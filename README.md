@@ -1,5 +1,5 @@
 # Operations Research Notebooks
-Notebooks for Operation Research Problems
+Jupyter Notebooks for (Solved) Operation Research Problems using `pyomo` Python Library
 
 
 ## Project Outline
